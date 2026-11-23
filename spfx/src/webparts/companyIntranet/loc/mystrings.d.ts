@@ -1,0 +1,66 @@
+declare interface ICompanyIntranetWebPartStrings {
+  PropertyPaneDescription: string;
+  BrandingGroupName: string;
+  DataGroupName: string;
+  MediaGroupName: string;
+  QuickLinksGroupName: string;
+  StatsGroupName: string;
+  CtaGroupName: string;
+  TitleFieldLabel: string;
+  SubtitleFieldLabel: string;
+  LogoUrlFieldLabel: string;
+  LogoUrlFieldDescription: string;
+  NewsListTitleFieldLabel: string;
+  NewsListTitleFieldDescription: string;
+  EventsListTitleFieldLabel: string;
+  EventsListTitleFieldDescription: string;
+  EventSourceFieldLabel: string;
+  EventSourceCalendar: string;
+  EventSourceCompany: string;
+  EventSourceBoth: string;
+  StatsListTitleFieldLabel: string;
+  StatsListTitleFieldDescription: string;
+  FeaturedAppsListTitleFieldLabel: string;
+  FeaturedAppsListTitleFieldDescription: string;
+  DepartmentsListTitleFieldLabel: string;
+  DepartmentsListTitleFieldDescription: string;
+  ClientLogosListTitleFieldLabel: string;
+  ClientLogosListTitleFieldDescription: string;
+  YouTubeUrlFieldLabel: string;
+  YouTubeUrlFieldDescription: string;
+  YouTubeTitleFieldLabel: string;
+  QuickLinksFieldLabel: string;
+  QuickLinksFieldDescription: string;
+  CtaHeadingFieldLabel: string;
+  CtaTextFieldLabel: string;
+  CtaButtonTextFieldLabel: string;
+  CtaUrlFieldLabel: string;
+  HrContactFieldLabel: string;
+  ItContactFieldLabel: string;
+  DefaultTitle: string;
+  DefaultSubtitle: string;
+  DefaultNewsListTitle: string;
+  DefaultEventsListTitle: string;
+  DefaultStatsListTitle: string;
+  DefaultFeaturedAppsListTitle: string;
+  DefaultDepartmentsListTitle: string;
+  DefaultClientLogosListTitle: string;
+  DefaultCtaHeading: string;
+  DefaultCtaText: string;
+  DefaultCtaButtonText: string;
+  DefaultCtaUrl: string;
+  AppLocalEnvironmentSharePoint: string;
+  AppLocalEnvironmentTeams: string;
+  AppLocalEnvironmentOffice: string;
+  AppLocalEnvironmentOutlook: string;
+  AppSharePointEnvironment: string;
+  AppTeamsTabEnvironment: string;
+  AppOfficeEnvironment: string;
+  AppOutlookEnvironment: string;
+  UnknownEnvironment: string;
+}
+
+declare module 'CompanyIntranetWebPartStrings' {
+  const strings: ICompanyIntranetWebPartStrings;
+  export = strings;
+}

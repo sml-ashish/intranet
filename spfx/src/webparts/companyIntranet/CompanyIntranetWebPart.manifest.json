@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "816780be-0219-4cf1-826d-3cb7a307de01",
+  "alias": "CompanyIntranetWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "SML Cosmos" },
+    "description": { "default": "SML Cosmos intranet landing: quick links, upcoming events, featured video and company news." },
+    "officeFabricIconFontName": "Home",
+    "properties": {
+      "title": "SML Cosmos",
+      "subtitle": "Your Digital Universe.",
+      "logoUrl": "",
+      "newsListTitle": "Company News",
+      "eventsListTitle": "Company Events",
+      "eventSource": "both",
+      "quickLinksJson": "",
+      "youtubeUrl": "",
+      "youtubeTitle": "",
+      "videoUrl": "",
+      "videoPosterUrl": "",
+      "videoSubtitle": "",
+      "heroImagesListTitle": "Hero Images",
+      "statsListTitle": "Company Stats",
+      "featuredAppsListTitle": "Featured Apps",
+      "departmentsListTitle": "Departments",
+      "clientLogosListTitle": "Client Logos",
+      "ctaHeading": "Safety first. Report an incident",
+      "ctaText": "See something unsafe? One click reaches the safety team — every report keeps the crew home safe.",
+      "ctaButtonText": "Report an incident",
+      "ctaUrl": "/Lists/QuickLinks",
+      "hrContact": "",
+      "itContact": ""
+    }
+  }]
+}

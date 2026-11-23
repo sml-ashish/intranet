@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sml-cosmos-intranet-client-side-solution",
+    "id": "2bde8aa0-20f2-4347-9cae-f0c648e435e4",
+    "version": "1.0.1.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "SML Cosmos",
+      "websiteUrl": "https://www.smlcosmos.com",
+      "privacyUrl": "https://www.smlcosmos.com",
+      "termsOfUseUrl": "https://www.smlcosmos.com",
+      "mpnId": ""
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SML Cosmos company intranet"
+      },
+      "longDescription": {
+        "default": "SML Cosmos intranet landing experience: quick links, upcoming events from Outlook calendar and company list, featured YouTube video and company news."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "SML Cosmos Intranet Feature",
+        "description": "Activates the SML Cosmos intranet web parts.",
+        "id": "1c616d39-1a7a-4cf8-a2f2-217598906248",
+        "version": "1.0.1.0"
+      }
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Calendars.Read"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sml-cosmos-intranet.sppkg"
+  }
+}

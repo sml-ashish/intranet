@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# SPFx build output
+dist/
+lib/
+lib-dts/
+lib-commonjs/
+lib-esm/
+release/
+sharepoint/
+solution/
+temp/
+*.sppkg
+*.spapp
+.heft/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Test output
+coverage/
+jest-output/
+
+# OS / editor
+.DS_Store
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+.idea/

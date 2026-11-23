@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2023/03/ProvisioningSchema">
+  <pnp:Preferences Generator="PnP.PowerShell" />
+
+  <pnp:SiteFields>
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000001"
+      Type="Note"
+      DisplayName="News summary"
+      InternalName="NewsSummary"
+      StaticName="NewsSummary"
+      Group="Company Intranet"
+      RichText="FALSE"
+      NumLines="4" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000002"
+      Type="URL"
+      DisplayName="News link"
+      InternalName="NewsLink"
+      StaticName="NewsLink"
+      Group="Company Intranet"
+      Format="Hyperlink" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000003"
+      Type="Text"
+      DisplayName="News image URL"
+      InternalName="NewsImage"
+      StaticName="NewsImage"
+      Group="Company Intranet" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000004"
+      Type="URL"
+      DisplayName="Link URL"
+      InternalName="LinkUrl"
+      StaticName="LinkUrl"
+      Group="Company Intranet"
+      Format="Hyperlink" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000005"
+      Type="Text"
+      DisplayName="Link icon"
+      InternalName="LinkIcon"
+      StaticName="LinkIcon"
+      Group="Company Intranet" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000006"
+      Type="DateTime"
+      DisplayName="Event date"
+      InternalName="EventDate"
+      StaticName="EventDate"
+      Group="Company Intranet"
+      Format="DateTime" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000007"
+      Type="DateTime"
+      DisplayName="Event end date"
+      InternalName="EventEndDate"
+      StaticName="EventEndDate"
+      Group="Company Intranet"
+      Format="DateTime" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000008"
+      Type="Text"
+      DisplayName="Event location"
+      InternalName="EventLocation"
+      StaticName="EventLocation"
+      Group="Company Intranet" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000009"
+      Type="Note"
+      DisplayName="Event description"
+      InternalName="EventDescription"
+      StaticName="EventDescription"
+      Group="Company Intranet"
+      RichText="FALSE"
+      NumLines="4" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000010"
+      Type="URL"
+      DisplayName="Registration link"
+      InternalName="RegistrationLink"
+      StaticName="RegistrationLink"
+      Group="Company Intranet"
+      Format="Hyperlink" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000011"
+      Type="Text"
+      DisplayName="Value"
+      InternalName="Value"
+      StaticName="Value"
+      Group="Company Intranet" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000012"
+      Type="Text"
+      DisplayName="Icon"
+      InternalName="Icon"
+      StaticName="Icon"
+      Group="Company Intranet" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000013"
+      Type="Boolean"
+      DisplayName="In hero"
+      InternalName="InHero"
+      StaticName="InHero"
+      Group="Company Intranet" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000014"
+      Type="Note"
+      DisplayName="Description"
+      InternalName="Description"
+      StaticName="Description"
+      Group="Company Intranet"
+      RichText="FALSE"
+      NumLines="4" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000015"
+      Type="URL"
+      DisplayName="Url"
+      InternalName="Url"
+      StaticName="Url"
+      Group="Company Intranet"
+      Format="Hyperlink" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000016"
+      Type="Text"
+      DisplayName="Head"
+      InternalName="Head"
+      StaticName="Head"
+      Group="Company Intranet" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000017"
+      Type="Text"
+      DisplayName="Role"
+      InternalName="Role"
+      StaticName="Role"
+      Group="Company Intranet" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000018"
+      Type="URL"
+      DisplayName="Photo"
+      InternalName="LeaderPhoto"
+      StaticName="LeaderPhoto"
+      Group="Company Intranet"
+      Format="Image" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000019"
+      Type="URL"
+      DisplayName="LinkedIn"
+      InternalName="LeaderLinkedIn"
+      StaticName="LeaderLinkedIn"
+      Group="Company Intranet"
+      Format="Hyperlink" />
+    <pnp:Field
+      ID="b7a2c3d4-1111-4a2b-9c3d-100000000020"
+      Type="Number"
+      DisplayName="Sort order"
+      InternalName="SortOrder"
+      StaticName="SortOrder"
+      Group="Company Intranet" />
+  </pnp:SiteFields>
+
+  <pnp:Lists>
+    <pnp:ListInstance
+      Title="Company News"
+      Description="Company news items shown on the intranet landing page."
+      DocumentTemplate=""
+      TemplateType="100"
+      Url="Lists/CompanyNews"
+      EnableVersioning="true"
+      EnableAttachments="false">
+      <pnp:FieldRefs>
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000001" Name="NewsSummary" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000002" Name="NewsLink" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000003" Name="NewsImage" />
+      </pnp:FieldRefs>
+      <pnp:DataRows>
+        <pnp:DataRow>
+          <pnp:DataValue FieldName="Title">Welcome to the new company intranet</pnp:DataValue>
+          <pnp:DataValue FieldName="NewsSummary">Your single place for company news, documents, people and tools.</pnp:DataValue>
+          <pnp:DataValue FieldName="NewsLink">/SitePages/Home.aspx</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+          <pnp:DataValue FieldName="Title">Security awareness training is now available</pnp:DataValue>
+          <pnp:DataValue FieldName="NewsSummary">Complete the annual security awareness training before the end of the month.</pnp:DataValue>
+          <pnp:DataValue FieldName="NewsLink">/SitePages/ITSupport.aspx</pnp:DataValue>
+        </pnp:DataRow>
+      </pnp:DataRows>
+    </pnp:ListInstance>
+
+    <pnp:ListInstance
+      Title="Company Events"
+      Description="Upcoming company events shown on the intranet landing page."
+      DocumentTemplate=""
+      TemplateType="100"
+      Url="Lists/CompanyEvents"
+      EnableVersioning="true"
+      EnableAttachments="false">
+      <pnp:FieldRefs>
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000006" Name="EventDate" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000007" Name="EventEndDate" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000008" Name="EventLocation" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000009" Name="EventDescription" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000010" Name="RegistrationLink" />
+      </pnp:FieldRefs>
+    </pnp:ListInstance>
+
+    <pnp:ListInstance
+      Title="Quick Links"
+      Description="Links surfaced on the intranet landing page."
+      DocumentTemplate=""
+      TemplateType="100"
+      Url="Lists/QuickLinks"
+      EnableVersioning="false"
+      EnableAttachments="false">
+      <pnp:FieldRefs>
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000004" Name="LinkUrl" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000005" Name="LinkIcon" />
+      </pnp:FieldRefs>
+      <pnp:DataRows>
+        <pnp:DataRow>
+          <pnp:DataValue FieldName="Title">Documents</pnp:DataValue>
+          <pnp:DataValue FieldName="LinkUrl">/Shared Documents</pnp:DataValue>
+          <pnp:DataValue FieldName="LinkIcon">DocumentSet</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+          <pnp:DataValue FieldName="Title">People</pnp:DataValue>
+          <pnp:DataValue FieldName="LinkUrl">/SitePages/People.aspx</pnp:DataValue>
+          <pnp:DataValue FieldName="LinkIcon">People</pnp:DataValue>
+        </pnp:DataRow>
+      </pnp:DataRows>
+    </pnp:ListInstance>
+
+    <pnp:ListInstance
+      Title="Company Stats"
+      Description="Key company statistics shown on the intranet landing page."
+      DocumentTemplate=""
+      TemplateType="100"
+      Url="Lists/CompanyStats"
+      EnableVersioning="false"
+      EnableAttachments="false">
+      <pnp:FieldRefs>
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000011" Name="Value" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000012" Name="Icon" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000013" Name="InHero" />
+      </pnp:FieldRefs>
+    </pnp:ListInstance>
+
+    <pnp:ListInstance
+      Title="Featured Apps"
+      Description="Featured applications surfaced on the intranet landing page."
+      DocumentTemplate=""
+      TemplateType="100"
+      Url="Lists/FeaturedApps"
+      EnableVersioning="false"
+      EnableAttachments="false">
+      <pnp:FieldRefs>
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000014" Name="Description" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000012" Name="Icon" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000015" Name="Url" />
+      </pnp:FieldRefs>
+    </pnp:ListInstance>
+
+    <pnp:ListInstance
+      Title="Departments"
+      Description="Company departments surfaced on the intranet landing page."
+      DocumentTemplate=""
+      TemplateType="100"
+      Url="Lists/Departments"
+      EnableVersioning="false"
+      EnableAttachments="false">
+      <pnp:FieldRefs>
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000014" Name="Description" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000012" Name="Icon" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000016" Name="Head" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000015" Name="Url" />
+      </pnp:FieldRefs>
+    </pnp:ListInstance>
+
+    <pnp:ListInstance
+      Title="Leadership"
+      Description="Leadership team shown in the intranet carousel. Title = name; lowest Sort order shows first."
+      DocumentTemplate=""
+      TemplateType="100"
+      Url="Lists/Leadership"
+      EnableVersioning="false"
+      EnableAttachments="false">
+      <pnp:FieldRefs>
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000017" Name="Role" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000018" Name="LeaderPhoto" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000019" Name="LeaderLinkedIn" />
+        <pnp:FieldRef ID="b7a2c3d4-1111-4a2b-9c3d-100000000020" Name="SortOrder" />
+      </pnp:FieldRefs>
+    </pnp:ListInstance>
+
+    <pnp:ListInstance
+      Title="Client Logos"
+      Description="Client logos uploaded by staff."
+      DocumentTemplate=""
+      TemplateType="109"
+      Url="Lists/ClientLogos"
+      EnableVersioning="false"
+      EnableAttachments="false">
+    </pnp:ListInstance>
+    <pnp:ListInstance
+      Title="Hero Images"
+      Description="Crane photos used as the rotating hero background. Name files 01-, 02-, 03- to set the order."
+      DocumentTemplate=""
+      TemplateType="109"
+      Url="HeroImages"
+      EnableVersioning="false"
+      EnableAttachments="false">
+    </pnp:ListInstance>
+  </pnp:Lists>
+</pnp:Provisioning>
